@@ -2,12 +2,13 @@ import os
 from selenium import webdriver
 from time import sleep
 
-#driver = None
-#driver = webdriver.Firefox()
-
-chromedriver = r"C:\Users\Sara\Desktop\GmailAutoresponder\chromedriver_win32/chromedriver.exe"
+chromedriver = r'<Path to Chrome Driver>'
 os.environ["webdriver.chrome.driver"] = chromedriver
 driver = webdriver.Chrome(chromedriver)
+
+# For Firefox
+# firefoxdriver = r'<Path to Firefox Driver>'
+# driver = webdriver.Firefox()
 
 SENDER = '<SENDER NAME>'
 GMAIL_USER = '<Your Gmail ID>'

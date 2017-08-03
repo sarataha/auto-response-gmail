@@ -9,3 +9,26 @@
  Required:
  
  [chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=2.31/)
+ 
+ You need to edit the following lines with your own information
+ 
+ Add the path to your chromedriver
+ ```
+ chromedriver = r'<Path to Chrome Driver>'
+ ```
+ 
+ Add name of the sender
+ ```
+ SENDER = '<SENDER NAME>'
+ ```
+ 
+ Add your Gmail details
+ ```
+ GMAIL_USER = '<Your Gmail ID>'
+ GMAIL_PASSWORD = '<Your Gmail ID>'
+ ```
+ 
+ Customize the automated email
+ ```
+ MESSAGE = 'I will get back to you soon. \n Thanks'
+ ```
