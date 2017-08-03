@@ -1,6 +1,6 @@
 # Automated response for Gmail
  
- A simple automated response tool for Gmail. The tool responds to emails based on the sender.
+ A simple automated response tool for Gmail using Python and Selenium. The tool responds to emails based on the sender.
  
  Used:
  * Python
@@ -9,6 +9,11 @@
  Required:
  
  [chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=2.31/)
+ 
+ To install Selenium for Python, Run
+ ```
+ pip install selenium
+ ```
  
  You need to edit the following lines with your own information
  
