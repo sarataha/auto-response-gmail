@@ -15,7 +15,6 @@ GMAIL_USER = '<Your Gmail ID>'
 GMAIL_PASSWORD = '<Your Gmail ID>'
 MESSAGE = 'I will get back to you soon. \n Thanks'
 
-
 def access_gmail():
     try:
         driver.get('http://gmail.com')
