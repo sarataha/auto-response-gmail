@@ -17,7 +17,7 @@
  chromedriver = r'<Path to Chrome Driver>'
  ```
  
- Add name of the sender
+ Add the name of the sender
  ```
  SENDER = '<SENDER NAME>'
  ```
